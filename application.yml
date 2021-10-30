@@ -1,8 +1,8 @@
 server:
   port: 8085
 my:
-  greeting: Hello World Famous from config server
-    list.values: One,Two,Three,four
+  greeting: Hello World Famous
+  list.values: One,Two,Three
 
 app:
   name: my app
