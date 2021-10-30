@@ -1,0 +1,18 @@
+server:
+  port: 8085
+my:
+  greeting: Hello World Famous from config server
+    list:
+      values: One,Two,Three,four
+
+app:
+  name: my app
+  desc:  welcome to $ {app.name}
+
+
+db:
+  connection: "{connnectionString: 'http//___', username:'root', password:'roor'}"
+  host: localhost
+  port: 1200
+management.endpoints.web.exposure.include: "*"
+spring.profiles.active: test
